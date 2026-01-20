@@ -4,7 +4,8 @@ An AI-powered code editor built with **Spring Boot 4** and **Java 17**, using **
 
 ## Features
 
-- 🚀 **Modern Spring Boot 4** architecture
+- 🚀 **Modern Spring Boot 4.0.1** architecture
+- ☕ **Java 25** - Latest Java runtime
 - 🤖 **Multi-AI Provider Support** - Choose between Anthropic Claude or Google Gemini
 - 💡 **Code Completion** - AI-powered code suggestions
 - 💬 **AI Chat Assistant** - Ask questions about your code
@@ -14,8 +15,8 @@ An AI-powered code editor built with **Spring Boot 4** and **Java 17**, using **
 
 ## Technology Stack
 
-- **Spring Boot 4.0.0-RC2** - Latest Spring Boot framework
-- **Java 17** - Modern Java runtime
+- **Spring Boot 4.0.1** - Latest Spring Boot framework
+- **Java 25** - Latest Java runtime
 - **Spring AI 1.0.0-M5** - AI integration framework
 - **Maven** - Build tool
 - **Lombok** - Reduce boilerplate code
@@ -39,7 +40,7 @@ export GEMINI_LOCATION=us-central1
 ## Getting Started
 
 ### Prerequisites
-- Java 17 or higher
+- Java 25 or higher
 - Maven 3.6+
 - API keys for your chosen AI provider
 
