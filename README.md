@@ -1,6 +1,6 @@
 # Pek Code
 
-An AI-powered code editor built with **Spring Boot 4** and **Java 17**, using **Spring AI** for intelligent code assistance.
+An AI-powered code editor built with **Spring Boot 4.0.1** and **Java 25**, using **Spring AI** for intelligent code assistance.
 
 ## Features
 
