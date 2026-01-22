@@ -17,7 +17,7 @@ An AI-powered code editor built with **Spring Boot 4.0.1** and **Java 25**, usin
 
 - **Spring Boot 4.0.1** - Latest Spring Boot framework
 - **Java 25** - Latest Java runtime
-- **Spring AI 1.0.0-M5** - AI integration framework
+- **Spring AI 2.0.0-M1** - AI integration framework compatible with Spring Boot 4 and Spring Framework 7
 - **Maven** - Build tool
 - **Lombok** - Reduce boilerplate code
 
