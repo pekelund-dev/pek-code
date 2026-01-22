@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: pek-code
+  ai:
+    anthropic:
+      api-key: ${ANTHROPIC_API_KEY:}
+      chat:
+        options:
+          model: claude-3-5-sonnet-20241022
+          max-tokens: 4096
+    vertex:
+      ai:
+        gemini:
+          project-id: ${GEMINI_PROJECT_ID:}
+          location: ${GEMINI_LOCATION:us-central1}
+          chat:
+            options:
+              model: gemini-1.5-pro
+
+# AI provider selection: anthropic or gemini
+ai:
+  provider: ${AI_PROVIDER:anthropic}
+
+logging:
+  level:
+    dev.pekelund.pekcode: INFO
+    org.springframework.web: INFO
+    org.springframework.ai: DEBUG
